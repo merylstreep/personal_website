@@ -12,7 +12,7 @@ export const person = {
   nickname: 'Haz',
   title: 'Founding engineer at Fleet Technologies',
   location: 'New York, via Sydney',
-  email: '', // Optional. Leave empty to hide. If set, it is public and will get scraped.
+  email: 'hello@harryzhang.dev', // Optional. Leave empty to hide. If set, it is public and will get scraped.
   emoji: '🍊',
 };
 
