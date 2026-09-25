@@ -4,7 +4,7 @@ import Header from '@/components/Header.astro';
 import Section from '@/components/Section.astro';
 import TalkList from '@/components/TalkList.astro';
 import LinkRows from '@/components/LinkRows.astro';
-import { person, about, talks, writing, contact } from '@/content/site';
+import { person, about, projects, talks, writing, contact } from '@/content/site';
 ---
 
 <Base>
@@ -21,6 +21,10 @@ import { person, about, talks, writing, contact } from '@/content/site';
         {about.map((para) => <p set:html={para} />)}
       </div>
     </section>
+
+    <Section id="projects" title="Projects">
+      <LinkRows links={projects} />
+    </Section>
 
     <Section id="talks" title="Talks">
       <TalkList talks={talks} />

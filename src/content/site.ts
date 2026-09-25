@@ -99,6 +99,14 @@ export type LinkItem = {
 
 const calUrl = 'https://cal.com/harry-archer';
 
+export const projects: LinkItem[] = [
+  {
+    label: 'Website',
+    handle: 'Read Something Nice',
+    url: 'https://readsomethingnice.org',
+  },
+];
+
 export const writing: LinkItem[] = [
   {
     label: 'Substack',
