@@ -18,7 +18,7 @@ export const person = {
 
 export const company = {
   name: 'Fleet Technologies',
-  url: 'https://fleethealth.com',
+  url: 'https://www.fleettechnologies.com',
   role: 'Founding engineer',
   blurb: 'Platform products that harmonise and declutter noisy data at scale.',
 };
